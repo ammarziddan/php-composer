@@ -1,0 +1,25 @@
+{
+    "name": "ammarziddan/php-composer",
+    "description": "Learn PHP Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ammarziddan",
+            "email": "ammarziddan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AmmarZiddan\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "ammarziddan/php-composer-hello": "2.0.0",
+        "monolog/monolog": "2.2.0"
+    },
+    "scripts": {
+        "jalankan-server": "php -S 0.0.0.0:8080",
+        "hello": "echo 'Hello World'"
+    }
+}
